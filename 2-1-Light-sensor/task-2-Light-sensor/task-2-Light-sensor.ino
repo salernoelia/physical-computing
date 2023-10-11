@@ -9,6 +9,7 @@ void loop() {
   // Read the analog value from the photoresistor
   int photoresistorValue = analogRead(photoresistorPin);
   int mappedValue = map(photoresistorValue, 650, 950, LOW, 255);
+  // sensorValue = constrain(0, 255);
 
 
 
